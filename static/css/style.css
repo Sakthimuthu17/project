@@ -1,0 +1,132 @@
+body {
+    /* Set a background color for the body */
+    background-color: #0ad6f3;
+    /* Add some padding to the body */
+    padding: 20px;
+    /* Set a font family for the body */
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    /* Center the h1 text */
+    text-align: center;
+    /* Add some margin to the h1 */
+    margin-bottom: 20px;
+    /* Set a font size for the h1 */
+    font-size: 36px;
+  }
+  
+  button {
+    /* Add some padding to the button */
+    padding: 10px 20px;
+    /* Set a background color for the button */
+    background-color: #4CAF50;
+    /* Set a text color for the button */
+    color: #ffffff;
+    /* Add a border radius to the button */
+    border-radius: 5px;
+    /* Remove the underline from the link */
+    text-decoration: none;
+  }
+  
+  button:hover {
+    /* Change the background color on hover */
+    background-color: #3e8e41;
+  }
+  
+  img {
+    /* Set a width for the image */
+    width: 100%;
+    /* Set a height for the image */
+    height: 100%;
+    /* Add some margin to the image */
+    margin: 20px;
+    padding: 12px;
+    display: flex;
+  }
+  
+  .center {
+    /* Center the element */
+    text-align: center;
+  }
+  p{
+font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(243, 147, 4);
+  }
+  img{
+    display: inline;
+    width: 100%;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    background-color: white; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Fixed width */
+}
+
+h1 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below title */
+}
+
+.mb-3 {
+    margin-bottom: 15px; /* Space below form elements */
+}
+
+.form-label {
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold labels */
+}
+
+.form-control {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded input corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.btn {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px; /* Padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.alert {
+    background-color: #fff3cd; /* Light warning color */
+    color: #856404; /* Dark warning text */
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Space below alert */
+}
+
+button a {
+    text-decoration: none; /* Remove underline from link */
+    color: #007bff; /* Link color */
+}
